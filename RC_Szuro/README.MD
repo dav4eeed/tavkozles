@@ -41,4 +41,4 @@ $fh= 576,6483 Hz $
 ---
 
 # Grafikon:  
-
+<img alt="image" src="https://raw.githubusercontent.com/dav4eeed/tavkozles/refs/heads/main/RC_Szuro/U%20ki%5B%20V%20%5D%20%E2%80%93%20Freki%5B%20Hz%20%5D.png" />

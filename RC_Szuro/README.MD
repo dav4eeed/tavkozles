@@ -15,6 +15,14 @@ $C = 23 uF $
 
 ---
 
+*Határfrekvencia:*   
+   
+$fh= {1 \over (2 * Pi * R * C)} $   
+$fh= {1 \over (2 * Pi * 12R * 23uF)} $   
+$fh= 576,6483 Hz $
+
+---  
+
 # Mérés:
 
 | Mérés       | Freki[ Hz ] | U ki[ V ]     |

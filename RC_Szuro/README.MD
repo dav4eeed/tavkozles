@@ -40,5 +40,5 @@ $fh= 576,6483 Hz $
 
 ---
 
-# Grafikon: 
+# Grafikon:  
 

@@ -59,9 +59,9 @@ Az alábbi táblázat az elméleti úton meghatározott és a valós mérés sor
 
 | Megnevezés | Számított (Elméleti) | Mért (Valós) | Eltérés (%) |
 | :--- | :--- | :--- | :--- |
-| **Feszültségerősítés ($|A_u|$)** | $8.319$ | $8.354$ | $0.42\%$ |
-| **Kimeneti feszültség (DC)** | $-8.319\text{ V}$ | $-8.319\text{ V}$ | $0.00\%$ |
-| **Kimeneti feszültség ($V_{pp}$)** | $8.319\text{ V}$ | $8.379\text{ V}$ | $0.72\%$ |
+| **Feszültségerősítés** | 8.319 | 8.354 | 0.42% |
+| **Kimeneti feszültség (DC)** | -8.319 V | -8.319 V | 0.00% |
+| **Kimeneti feszültség ($V_{pp}$)** | 8.319 V | 8.379 V | 0.72% |
 
 ## 6. Következtetés
 A mérés sikeres volt. A mért értékek és a számított adatok közötti eltérés elhanyagolható (1% alatti), ami igazolja az elméleti összefüggések helyességét. Az oszcilloszkóp ernyőjén látható fáziseltolódás (180°) megerősíti az invertáló jelleget. A TL071 műveleti erősítő a vizsgált tartományban lineáris és stabil működést mutatott.

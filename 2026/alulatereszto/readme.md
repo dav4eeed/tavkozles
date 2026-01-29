@@ -57,4 +57,4 @@ A mérést a Bode Analyzer szoftverrel végeztük 20 Hz és 20 kHz közötti tar
 A mérés igazolta, hogy az áramkör aluláteresztő szűrőként működik. A mért 15.40 dB-es erősítés a töréspontnál közelítőleg 3 dB-es csökkenést jelent a DC maximumhoz képest, ami alátámasztja a számított fc értéket. A fázisgörbe 180°-ról indul (invertálás) és a kondenzátor hatására 90° felé tart.
 
 ---
-**Mérő aláírása:** ............................................
+**Mérő aláírása:** Petrus Dávid

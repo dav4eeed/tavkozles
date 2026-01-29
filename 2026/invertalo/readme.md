@@ -67,4 +67,4 @@ Az alábbi táblázat az elméleti úton meghatározott és a valós mérés sor
 A mérés sikeres volt. A mért értékek és a számított adatok közötti eltérés elhanyagolható (1% alatti), ami igazolja az elméleti összefüggések helyességét. Az oszcilloszkóp ernyőjén látható fáziseltolódás (180°) megerősíti az invertáló jelleget. A TL071 műveleti erősítő a vizsgált tartományban lineáris és stabil működést mutatott.
 
 ---
-**Mérő aláírása:** ............................................
+**Mérő aláírása:** Petrus Dávid

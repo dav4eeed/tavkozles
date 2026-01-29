@@ -23,7 +23,8 @@ Az invertáló alapkapcsolás működésének, feszültségerősítésének és 
 Az invertáló alapkapcsolás elméleti feszültségerősítése ($A_u$) az alábbi képlet alapján számítható:
 $$A_u = -\frac{R_2}{R_1}$$
 
-![Áramköri elrendezés](invertalo.png)
+<img width="855" height="533" alt="invertalo" src="https://github.com/user-attachments/assets/12238804-14f3-4b67-ad83-02b52fc60aeb" />
+
 
 ## 4. Mérési eredmények
 
@@ -36,13 +37,13 @@ A szimuláció/mérés során mért egyenfeszültségek:
 A bemeneti jelet a függvénygenerátor szolgáltatja, a ki- és bemeneti jeleket pedig oszcilloszkóppal monitorozzuk.
 
 **Függvénygenerátor beállításai:**
-![Függvénygenerátor](image_27118e.png)
+<img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/013ad868-d448-43e3-b173-38172d9273f2" />
 * Jelalak: Szinusz
 * Frekvencia: $100.00\text{ Hz}$
 * Amplitúdó ($V_{pp}$): $1.00\text{ V}$
-
+  
 **Oszcilloszkópos mérések:**
-![Oszcilloszkóp](image_2711ae.png)
+<img width="1073" height="740" alt="oszcilloszkop" src="https://github.com/user-attachments/assets/630c0206-44ca-4854-9775-82e07860cbcd" />
 
 | Paraméter | CH0 (Bemenet) | CH1 (Kimenet) |
 | :--- | :--- | :--- |

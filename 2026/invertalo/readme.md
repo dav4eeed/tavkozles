@@ -37,7 +37,7 @@ A bemenetre kapcsolt $1\text{ V}$ DC feszültség mellett mért adatok:
 ### 4.2. Dinamikus (AC) vizsgálat
 A bemeneti szinuszos jelet a függvénygenerátor biztosítja, a jeleket oszcilloszkóppal elemezzük.
 
-**Függvénygenerátor beállításai:**
+**Függvénygenerátor beállításai:**   
 <img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/f2864983-9b43-436b-81e6-a53d24f81e7d" />
 
 

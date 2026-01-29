@@ -15,49 +15,53 @@ Az invertáló alapkapcsolás működésének, feszültségerősítésének és 
 * **Szoftverek:** NI ELVISmx Oscilloscope, NI ELVISmx Function Generator
 * **Integrált áramkör:** TL071 műveleti erősítő
 * **Ellenállások:**
-    * $R_1$: $11.9\text{ k}\Omega$
-    * $R_2$: $99\text{ k}\Omega$
-    * $R_3$: $11.9\text{ k}\Omega$
+    * $R_1$: $11.9\text{ k}\Omega$ (Bemeneti ellenállás)
+    * $R_2$: $99\text{ k}\Omega$ (Visszacsatoló ellenállás)
+    * $R_3$: $11.9\text{ k}\Omega$ (Offset kompenzáció)
 
 ## 3. Kapcsolási rajz és elméleti összefoglaló
-Az invertáló alapkapcsolás elméleti feszültségerősítése ($A_u$) az alábbi képlet alapján számítható:
+Az invertáló alapkapcsolás elméleti feszültségerősítése ($A_u$) az ellenállások arányából számítható. A negatív előjel a fázisfordítást jelzi.
+
 $$A_u = -\frac{R_2}{R_1}$$
 
-<img width="855" height="533" alt="invertalo" src="https://github.com/user-attachments/assets/12238804-14f3-4b67-ad83-02b52fc60aeb" />
-
+![Áramköri elrendezés](<img width="855" height="533" alt="invertalo" src="https://github.com/user-attachments/assets/7806de18-d621-43f6-a49a-c99dccdb8714" />)
 
 ## 4. Mérési eredmények
 
 ### 4.1. Statikus (DC) vizsgálat
-A szimuláció/mérés során mért egyenfeszültségek:
+A bemenetre kapcsolt $1\text{ V}$ DC feszültség mellett mért adatok:
 * **Bemeneti feszültség ($U_{be}$):** $1\text{ V}$
 * **Kimeneti feszültség ($U_{ki}$):** $-8.319\text{ V}$
 
 ### 4.2. Dinamikus (AC) vizsgálat
-A bemeneti jelet a függvénygenerátor szolgáltatja, a ki- és bemeneti jeleket pedig oszcilloszkóppal monitorozzuk.
+A bemeneti szinuszos jelet a függvénygenerátor biztosítja, a jeleket oszcilloszkóppal elemezzük.
 
 **Függvénygenerátor beállításai:**
-<img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/013ad868-d448-43e3-b173-38172d9273f2" />
+![Függvénygenerátor](<img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/32b20f71-c6d6-4f53-8551-0f8d4f98e61a" />)
 
-* Jelalak: Szinusz
-* Frekvencia: $100.00\text{ Hz}$
-* Amplitúdó ($V_{pp}$): $1.00\text{ V}$
-  
-**Oszcilloszkópos mérések:**
-<img width="1073" height="740" alt="oszcilloszkop" src="https://github.com/user-attachments/assets/630c0206-44ca-4854-9775-82e07860cbcd" />
+**Oszcilloszkópos mérések (CH0: Bemenet, CH1: Kimenet):**
+![Oszcilloszkóp](<img width="1073" height="740" alt="oszcilloszkop" src="https://github.com/user-attachments/assets/269e5cef-f62e-4094-9cf3-55b1bb854772" />)
 
-| Paraméter | CH0 (Bemenet) | CH1 (Kimenet) |
+| Paraméter | CH0 (Sárga) | CH1 (Kék) |
 | :--- | :--- | :--- |
 | **Csúcstól-csúcsig ($V_{pp}$)** | $1.003\text{ V}$ | $8.379\text{ V}$ |
 | **Effektív érték (RMS)** | $354.06\text{ mV}$ | $2.954\text{ V}$ |
 | **Frekvencia ($f$)** | $100.000\text{ Hz}$ | $99.999\text{ Hz}$ |
 
-## 5. Kiértékelés
-A mérés során a mért és számított értékek szoros egyezést mutattak.
-* **Elméleti erősítés:** $A_{u\_elm} \approx -8.319$
-* **Gyakorlati erősítés ($V_{pp}$ alapján):** $A_{u\_prakt} = \frac{8.379\text{ V}}{1.003\text{ V}} \approx 8.354$
+---
 
-Az oszcilloszkóp ábráján megfigyelhető a 180°-os fázisfordítás, amely az invertáló kapcsolás alapvető jellemzője. A kimeneti jel torzításmentes, a TL071-es IC stabilan működik a megadott frekvenciatartományban.
+## 5. Összehasonlító táblázat (Számított vs. Mért)
+
+Az alábbi táblázat az elméleti úton meghatározott és a valós mérés során kapott értékeket veti össze:
+
+| Megnevezés | Számított (Elméleti) | Mért (Valós) | Eltérés (%) |
+| :--- | :--- | :--- | :--- |
+| **Feszültségerősítés ($|A_u|$)** | $8.319$ | $8.354$ | $0.42\%$ |
+| **Kimeneti feszültség (DC)** | $-8.319\text{ V}$ | $-8.319\text{ V}$ | $0.00\%$ |
+| **Kimeneti feszültség ($V_{pp}$)** | $8.319\text{ V}$ | $8.379\text{ V}$ | $0.72\%$ |
+
+## 6. Következtetés
+A mérés sikeres volt. A mért értékek és a számított adatok közötti eltérés elhanyagolható (1% alatti), ami igazolja az elméleti összefüggések helyességét. Az oszcilloszkóp ernyőjén látható fáziseltolódás (180°) megerősíti az invertáló jelleget. A TL071 műveleti erősítő a vizsgált tartományban lineáris és stabil működést mutatott.
 
 ---
 **Mérő aláírása:** ............................................

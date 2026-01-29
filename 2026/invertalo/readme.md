@@ -24,7 +24,7 @@ Az invertáló alapkapcsolás elméleti feszültségerősítése ($A_u$) az elle
 
 $$A_u = -\frac{R_2}{R_1}$$
 
-![Áramköri elrendezés](<img width="855" height="533" alt="invertalo" src="https://github.com/user-attachments/assets/7806de18-d621-43f6-a49a-c99dccdb8714" />)
+(<img width="855" height="533" alt="invertalo" src="https://github.com/user-attachments/assets/7806de18-d621-43f6-a49a-c99dccdb8714" />)
 
 ## 4. Mérési eredmények
 
@@ -37,10 +37,10 @@ A bemenetre kapcsolt $1\text{ V}$ DC feszültség mellett mért adatok:
 A bemeneti szinuszos jelet a függvénygenerátor biztosítja, a jeleket oszcilloszkóppal elemezzük.
 
 **Függvénygenerátor beállításai:**
-![Függvénygenerátor](<img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/32b20f71-c6d6-4f53-8551-0f8d4f98e61a" />)
+(<img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/32b20f71-c6d6-4f53-8551-0f8d4f98e61a" />)
 
 **Oszcilloszkópos mérések (CH0: Bemenet, CH1: Kimenet):**
-![Oszcilloszkóp](<img width="1073" height="740" alt="oszcilloszkop" src="https://github.com/user-attachments/assets/269e5cef-f62e-4094-9cf3-55b1bb854772" />)
+(<img width="1073" height="740" alt="oszcilloszkop" src="https://github.com/user-attachments/assets/269e5cef-f62e-4094-9cf3-55b1bb854772" />)
 
 | Paraméter | CH0 (Sárga) | CH1 (Kék) |
 | :--- | :--- | :--- |

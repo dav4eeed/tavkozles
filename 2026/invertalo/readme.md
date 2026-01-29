@@ -38,6 +38,7 @@ A bemeneti jelet a függvénygenerátor szolgáltatja, a ki- és bemeneti jeleke
 
 **Függvénygenerátor beállításai:**
 <img width="518" height="592" alt="function generator" src="https://github.com/user-attachments/assets/013ad868-d448-43e3-b173-38172d9273f2" />
+
 * Jelalak: Szinusz
 * Frekvencia: $100.00\text{ Hz}$
 * Amplitúdó ($V_{pp}$): $1.00\text{ V}$

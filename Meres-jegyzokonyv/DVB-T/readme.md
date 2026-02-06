@@ -25,17 +25,17 @@ A mérés célja a DVB-T jel paramétereinek ellenőrzése a földfelszíni digi
 | Adó frekvencia |	634 MHz |   
 | Sávszélesség |	8MHz  |  
 | Moduláció típusa |	QPSK, 8K, 1/32  |  
-| Jelerősség (RSSI) |	48 dBuV  |  
-| MER |	28.2 dB |     
-| Noise Margin	| 24.1 |   
+| Jelerősség (RSSI) |	50.5 dBuV  |  
+| MER |	23.7 dB |     
+| Noise Margin	| 20 |   
 | Hiba nélkül vett adás időtartama |	200 sec |  
 
 ## 4. Mérési eredmények  
-- **Jelerősség:** A mért jelerősség **48 dBu**. Ez az érték stabil volt **200 másodperces** **időtartam alatt**, és megfelel a DVB-T előírásoknak. A mérési helyen a jel optimális volt.  
+- **Jelerősség:** A mért jelerősség **50.5 dBu**. Ez az érték stabil volt **200 másodperces** **időtartam alatt**, és megfelel a DVB-T előírásoknak. A mérési helyen a jel optimális volt.  
 
 - **Modulációs paraméterek:** A **QPSK** moduláció esetén a mért jel/zaj viszony (SNR) **12 dB** körül váltakozott, ami megfelel a követelményeknek.  
 
-- **Modulation Error Ratio (MER):** A mért MER érték **28.2 dB** volt, amely azt mutatja, hogy a vétel **probléma mentes volt.**
+- **Modulation Error Ratio (MER):** A mért MER érték **23.7 dB** volt, amely azt mutatja, hogy a vétel **probléma mentes volt.**
 
 ## 5. Elemzés  
 Az eredmények alapján a mérési helyen megfelelő minőségű DVB-T vétel biztosítható. A jelerősség és SNR értékek a megadott határértékek között mozogtak. A MER alacsony, és nem okozott észlelhető minőségromlást a vételben. A moduláció stabil volt, és nem voltak nagyobb interferenciák a mérések során.  

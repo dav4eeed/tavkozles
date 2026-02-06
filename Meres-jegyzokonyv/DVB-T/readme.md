@@ -13,7 +13,7 @@ A mérés célja a DVB-T jel paramétereinek ellenőrzése a földfelszíni digi
 ## 2. Mérési helyszín és környezet
 **Koordináták:** 48°06’20”N 20°46’48”E  
 **Antenna típusa:** Iskra p-20   
-**Antenna magassága:** 1.7 m  
+**Antenna magassága:** 1.35 m  
 **Környezet jellemzői:** V3 labor, városi körülmények között  
 **Adó távolsága:** 780,08 m  
 
